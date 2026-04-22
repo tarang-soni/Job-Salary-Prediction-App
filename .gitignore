@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pkl
+# Virtual Environments
+venv/
+env/
+.env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Environment Variables / Secrets
+.env
