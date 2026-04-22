@@ -1,14 +1,67 @@
-# Job Salary Prediction App
+# 💼 End-to-End Data Science: Job Salary Prediction (Regression)
 
-## Overview
-This project is an end-to-end Machine Learning solution designed to predict job salaries based on various industry features. It utilizes a **Random Forest Regressor** to make predictions and features a clean, interactive web application built with **Streamlit** for users to easily input data and get salary estimates.
+## 🎯 Project Overview
+This application predicts **job salaries** based on various input features such as role, experience, and other relevant attributes.  
+It uses a **Random Forest Regressor** to generate salary estimates through a Streamlit web interface.
 
-## 🚀 Steps to Run the Project
+---
 
-Follow these instructions to get the project up and running on your local machine.
+## 📂 Project Structure
+- `data/` → Contains trained model file (`model.pkl`)
+- `dataset/` → Raw dataset used for training
+- `notebook/` → Jupyter notebook for EDA and model development
+- `webapp/` → Streamlit app (`app.py`)
+- `requirements.txt` → Project dependencies
+- `README.md` → Documentation
 
-### Step 1: Clone the Repository
-Download the project files to your computer.
-```bash
-git clone [https://github.com/](https://github.com/)[tarang-soni]/[Your-Repository-Name].git
-cd [Your-Repository-Name]
+---
+
+## 🚀 How to Run the Project
+
+### 1. Clone the Repository
+```
+git clone https://github.com/tarang-soni/Your-Repository-Name.git
+cd Your-Repository-Name
+```
+
+### 2. Create & Activate Virtual Environment
+
+**Windows**
+```
+python -m venv venv
+venv\Scripts\activate
+```
+
+**macOS/Linux**
+```
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+```
+pip install -r requirements.txt
+```
+
+### 4. Run the Streamlit App
+```
+streamlit run webapp/app.py
+```
+
+### 5. Open in Browser
+```
+http://localhost:8501
+```
+
+---
+
+## 💡 Usage
+- Enter job details  
+- Click **Predict**  
+- View predicted salary  
+
+---
+
+## ⚠️ Notes
+- Ensure `model.pkl` exists inside the `data/` folder  
+- Activate virtual environment before running  
